@@ -1,0 +1,15 @@
+{
+  "name": "Minecraft Server Codespace",
+  "forwardPorts": [25565],
+  "portsAttributes": {
+    "25565": {
+      "label": "Minecraft Server",
+      "visibility": "public"
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  }
+}
